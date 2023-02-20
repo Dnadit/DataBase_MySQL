@@ -1,6 +1,6 @@
 # DataBase_MySQL
 + SELECT
-  SELECT : column 선택
+++  SELECT : column 선택
   (INTO) 
   FROM : table명
   (WHERE) : 조건
