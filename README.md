@@ -9,3 +9,9 @@ FROM : table명
 (HAVING)  
 (ORDER BY) : 오름차순으로 정렬  
 ```
++ WHERE
+```
+  + LIKE
+      % 0개 이상의 문자열과 일치
+      _ 특정 위치의 1개의 문자와 일치
+```
