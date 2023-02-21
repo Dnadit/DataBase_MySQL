@@ -21,7 +21,10 @@ FROM table이름
         
 ## 데이터 조작어 - 삽입, 수정, 삭제
 + INSERT문
-+ UPDATE문
++ UPDATE문  
+    UPDATE 테이블이름  
+    SET 속성이름1=값1  
+    WHERE 검색조건;  
 + DELETE문
     
 ## 참고사이트
