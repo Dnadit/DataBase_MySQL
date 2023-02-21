@@ -10,3 +10,5 @@ FROM table이름
 ## JOIN
 조인 (INNER JOIN)(default) : 기준 테이블과 조인 테이블 모두 데이터가 존재해야 조회됨  
 아우터 조인 (OUTER JOIN) : 기준 테이블에만 데이터가 존재하면 조회됨
+## 참고사이트
+https://www.programiz.com/sql
