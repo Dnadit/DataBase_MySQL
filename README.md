@@ -1,4 +1,7 @@
 # DataBase_MySQL
+## 표현방법
+테이블명.컬럼명  
+
 ## SELECT문
 SELECT 속성이름  
 (INTO)  
