@@ -2,6 +2,10 @@
 ## 표현방법
 테이블명.컬럼명  
 
+## ERD(Entity Relationship Diagram)  
+ERD를 그리고 Table 구축  
+Reverse Engineer는 Table을 가지고 ERD를 그리는 것.   
+
 ## SELECT문
 SELECT 속성이름  
 (INTO)  
