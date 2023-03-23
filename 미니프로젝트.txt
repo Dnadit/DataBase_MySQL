@@ -1,0 +1,18 @@
+데이터베이스명:본인학번
+테이블명:user
+컬럼:
+uid 문자형 pk
+uname 문자형
+email 문자형
+rdate 날짜형
+
+crud 기능의 jdbc 응용프로그램 작성
+1. insert - 추가
+2. delete - 삭제
+3. search - 검색
+4. update - 수정
+
+1. 각 기능별로 메소드로 작성
+2. 각 기능별로 db 저장 프로시저 작성하고 호출
+3. 삭제시는 트리거를 통해 deluser 테이블로 데이터 저장
+- deluser 테이블은 rdate 대신에 탈퇴일(wdate)로 기록.
