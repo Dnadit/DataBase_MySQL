@@ -59,7 +59,7 @@ FROM table이름
 + VIEW : 내가 보여주고 싶은것만 보여줌. 사용자는 READ만 할 수 있음.
 + PROCEDURE : 내가 만들어 놓은 여러 쿼리들을 한번에 실행할 수 있음.
 + TRANSACTION : INSERT, UPDATE, DELETE 등의 Database의 상태 변경이 있는 작업 단위. (commit, rollback)
-## 데이터베이스 연동
+## 자바와 데이터베이스 연동
 1. mysql 라이브러리 등록
 2. 드라이버 로딩
 3. DB 연결
