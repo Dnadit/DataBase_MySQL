@@ -54,5 +54,18 @@ FROM table이름
     2. n:m 관계는 릴레이션으로 변환.
     3. 1:1, 1:n 관계는 왜래키로 표현.
     4. 다중값 속성은 릴레이션으로 변환.
+## TRIGGER, VIEW, PROCEDURE, TRANSACTION
++ TRIGGER : CRUD가 실행되는 시점 전후로 실행시키고 싶은 명령문 작성.
++ VIEW : 내가 보여주고 싶은것만 보여줌. 사용자는 READ만 할 수 있음.
++ PROCEDURE : 내가 만들어 놓은 여러 쿼리들을 한번에 실행할 수 있음.
++ TRANSACTION : INSERT, UPDATE, DELETE 등의 Database의 상태 변경이 있는 작업 단위. (commit, rollback)
+## 데이터베이스 연동
+1. mysql 라이브러리 등록
+2. 드라이버 로딩
+3. DB 연결
+4. 쿼리 준비
+5. 쿼리 실행
+6. 쿼리 결과 가져오기
+7. (객체)닫기
 ## 참고사이트
 https://www.programiz.com/sql
